@@ -1,0 +1,3 @@
+empdf.join(findf,empdf.emp_dept_id == findf.dept_id,'inner').show(truncate=False)
+
+print('Inner join executed Successfully')
